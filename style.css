@@ -1,11 +1,17 @@
 body {background-color:midnightblue}
 h1 {text-align: center;}
 h4 {text-align: justify;}
+h5 {color: green;}
 img {max-block-size: 229px;}
 p{font-size: medium; color: red}
 ul {border: midnightblue;}
-li{color: black;}
+li{color: green;}
 tr{color: rgb(0, 0, 0);}
 .jumbotron {color: rgb(0, 0, 0)}
-.external-img {max-block-size: 170px}
+.external-img {align-content: inherit; max-block-size: 120 px;}
 #navbarDropdown {font-size: x-large; color: green; font-display:block ;}
+.navbar-custom {background-color: midnightblue !important;}
+.nav-link {color: green}
+#navbarSupportedContent {color: green;}
+.graph-page-img {max-block-size: 500px;}
+#graph-img {image-resolution;: 500px;}
