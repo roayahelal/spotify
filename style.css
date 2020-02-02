@@ -19,3 +19,6 @@ tr{color: rgb(0, 0, 0);}
 .compare-img {flex-wrap: inherit; max-width: 100%; min-block-size: 500px;}
 .vis-page-title {font-size: 30 ;color: lightgreen}
 .comp-page-title {font-size: 10; text-align:justify; color: lightgreen; font-variant-position: bottom;}
+th {color: lightsteelblue; text-align: center;}
+tr {color: rgb(205, 227, 255);}
+.table-hover {color: lightyellow;}
