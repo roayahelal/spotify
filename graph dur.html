@@ -11,12 +11,45 @@
       
         <link rel="stylesheet" href="style.css">
       </head>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom" id = "header-bar">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><h5>Dataset</h5> <span class="sr-only">(current)</span></a>
+              </li>
+              
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <h3>Plots</h3>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph bpm.html">BPM (Speed)</a>
+                    <a class="dropdown-item" href="/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph db.html">dB (Loudness)</a>
+                    <a class="dropdown-item" href="/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph dur.html">Duration</a>
+                    <a class="dropdown-item" href="/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph spch.html">Vocals</a>
+
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Plots Comparsions</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </nav> 
       <body>
-        </br>
-        </br>
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
+                        <h1 class = 'vis-page-title'> Durration</h1>
             <p>
             <img id = graph-img class = graph-page-img src='/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/resources/dur.png'>
             <p id = "graph-paragraph"> Duration seems to have multiple outliers. 
@@ -26,7 +59,7 @@
           </p></div>
           <div class="col-md-4">
               <a href = '/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph bpm.html' target = "_blank"><img  src='/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/resources/bpm.png'> </a> 
-              <a class = 'selected-graph' href = '/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph dur.html' target = "_blank"><img  src='/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/resources/dur.png'> </a> 
+              <a  href = '/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph dur.html' target = "_blank"><img class = 'selected-graph' src='/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/resources/dur.png'> </a> 
               <a href = '/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph spch.html' target = "_blank"><img  src='/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/resources/spch.png'> </a> 
               <a  href = '/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/graph db.html' target = "_blank"><img  src='/Users/roayahelal/Desktop/COLUMBIA UNIVERSITY/WEEK 11/Homework/web-design/resources/db.png'> </a> 
               

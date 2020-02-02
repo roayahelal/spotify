@@ -15,5 +15,7 @@ tr{color: rgb(0, 0, 0);}
 .graph-page-img {width: 100%; max-block-size: 1000px;}
 .spotify-img {width:100%;max-block-size:500px;}
 #graph-paragraph {font-size: xx-large; color:lightgreen; font-display: block; margin-block: auto;}
-.selected-graph {border: 10px solid transparent;
-padding: 10px; border-radius: 10px; border-block-start-color: lightyellow;}
+.selected-graph {border: 5px solid black;}
+.compare-img {flex-wrap: inherit; max-width: 100%; min-block-size: 500px;}
+.vis-page-title {font-size: 30 ;color: lightgreen}
+.comp-page-title {font-size: 10; text-align:justify; color: lightgreen; font-variant-position: bottom;}
