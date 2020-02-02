@@ -1,16 +1,19 @@
 body {background-color:midnightblue}
 h1 {text-align: center;}
 h4 {text-align: justify;}
-h5 {color: green;}
+h5 {color:lightgreen;}
+h3 {color:lightgreen !important;}
 img {max-block-size: 229px;}
 ul {border: midnightblue;}
-li{color: green;}
+li{color:lightgreen;}
 tr{color: rgb(0, 0, 0);}
 .jumbotron {color: rgb(0, 0, 0)}
 #navbarDropdown {font-size: x-large; color: green; font-display:block ;}
 .navbar-custom {background-color: midnightblue !important;}
-.nav-link {color: green}
-#navbarSupportedContent {color: green;}
+.nav-link {color:lightgreen}
+#navbarSupportedContent {color: lightgreen;}
 .graph-page-img {width: 100%; max-block-size: 1000px;}
 .spotify-img {width:100%;max-block-size:500px;}
-#graph-paragraph {font-size: xx-large; color: green; font-display: block; margin-block: auto;}
+#graph-paragraph {font-size: xx-large; color:lightgreen; font-display: block; margin-block: auto;}
+.selected-graph {border: 10px solid transparent;
+padding: 10px; border-radius: 10px; border-block-start-color: lightyellow;}
