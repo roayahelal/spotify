@@ -22,3 +22,4 @@ tr{color: rgb(0, 0, 0);}
 th {color: lightsteelblue; text-align: center;}
 tr {color: rgb(205, 227, 255);}
 .table-hover {color: lightyellow;}
+.table {margin: inherit;}
